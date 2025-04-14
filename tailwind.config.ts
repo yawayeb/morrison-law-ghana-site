@@ -61,6 +61,15 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// Law firm specific colors
+				law: {
+					'navy': '#0A2342',
+					'gold': '#9A7D0A',
+					'light-gold': '#E3D26F',
+					'gray': '#8E9196',
+					'light-gray': '#F6F6F7',
+					'dark-gray': '#333333',
 				}
 			},
 			borderRadius: {
