@@ -10,8 +10,8 @@ const About = () => {
     <Layout>
       <PageHeader 
         title="About Us" 
-        subtitle="Meet Reginald Morrison – Your Trusted Legal Partner"
-        backgroundImage="https://images.unsplash.com/photo-1521791055366-0d553381c4f6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2069&q=80"
+        subtitle="Meet Your Trusted North Carolina Legal Partner"
+        backgroundImage="https://images.unsplash.com/photo-1516321497487-e288fb19713f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2069&q=80"
       />
 
       {/* About Section */}
@@ -20,8 +20,8 @@ const About = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
               <img
-                src="https://images.unsplash.com/photo-1556157382-97eda2d62296?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80"
-                alt="Reginald Morrison"
+                src="https://images.unsplash.com/photo-1599566150163-29194dcaad25?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80"
+                alt="NC Law Firm Attorney"
                 className="rounded-lg shadow-lg w-full h-auto object-cover"
               />
             </div>
@@ -31,23 +31,23 @@ const About = () => {
                 centered={false}
               />
               <p className="text-lg text-gray-600 mb-6">
-                With over a decade of legal experience, Reginald Morrison is committed to delivering justice, clarity, and strategic solutions for individuals and businesses alike.
+                With extensive legal experience in North Carolina, our law firm is committed to delivering justice, clarity, and strategic solutions for individuals and businesses across the state.
               </p>
               <p className="text-lg text-gray-600 mb-6">
-                A proud alumnus of the University of Ghana Law School and a member of the Ghana Bar Association, he has represented hundreds of clients with integrity and precision. His practice is built on trust, professionalism, and results.
+                A dedicated member of the North Carolina Bar Association, our practice has represented hundreds of clients with integrity and precision. We build our approach on trust, professionalism, and proven results.
               </p>
               <p className="text-lg text-gray-600 mb-6">
-                At the heart of his work is a simple mission: to protect your rights and empower your future.
+                At the heart of our work is a simple mission: to protect your rights and empower your future in North Carolina.
               </p>
               <div className="flex items-center">
                 <img 
                   src="https://placehold.co/200x100/0A2342/FFFFFF?text=Signature" 
-                  alt="Reginald Morrison Signature" 
+                  alt="Law Firm Signature" 
                   className="h-16 mr-4"
                 />
                 <div>
-                  <h4 className="font-serif font-bold text-xl">Reginald Morrison</h4>
-                  <p className="text-gray-600">Principal Attorney</p>
+                  <h4 className="font-serif font-bold text-xl">North Carolina Law Firm</h4>
+                  <p className="text-gray-600">Legal Practice</p>
                 </div>
               </div>
             </div>

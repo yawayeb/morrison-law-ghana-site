@@ -11,7 +11,7 @@ const Contact = () => {
       <PageHeader 
         title="Contact Us" 
         subtitle="We're Ready to Hear from You"
-        backgroundImage="https://images.unsplash.com/photo-1556741533-6e6a62bd8b49?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+        backgroundImage="https://images.unsplash.com/photo-1516321497487-e288fb19713f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
       />
 
       <section className="py-20">
@@ -31,7 +31,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="text-xl font-medium mb-1">Office Address</h3>
-                    <p className="text-gray-600">123 Legal Avenue, Accra, Ghana</p>
+                    <p className="text-gray-600">3193 Gastonia Highway, Lincolnton, NC 28092</p>
                   </div>
                 </div>
                 
@@ -41,7 +41,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="text-xl font-medium mb-1">Phone Number</h3>
-                    <p className="text-gray-600">+233 20 123 4567</p>
+                    <p className="text-gray-600">+1 404 786 6557</p>
                   </div>
                 </div>
                 
@@ -51,7 +51,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="text-xl font-medium mb-1">Email Address</h3>
-                    <p className="text-gray-600">contact@reginaldmorrisonlaw.com</p>
+                    <p className="text-gray-600">contact@northcarolinalaw.com</p>
                   </div>
                 </div>
                 
@@ -61,7 +61,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="text-xl font-medium mb-1">WhatsApp</h3>
-                    <p className="text-gray-600">+233 20 123 4567</p>
+                    <p className="text-gray-600">+1 404 786 6557</p>
                   </div>
                 </div>
                 
@@ -71,8 +71,8 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="text-xl font-medium mb-1">Office Hours</h3>
-                    <p className="text-gray-600">Monday - Friday: 8:00 AM - 6:00 PM</p>
-                    <p className="text-gray-600">Saturday: 9:00 AM - 2:00 PM</p>
+                    <p className="text-gray-600">Monday - Friday: 9:00 AM - 5:00 PM</p>
+                    <p className="text-gray-600">Saturday: 10:00 AM - 2:00 PM</p>
                     <p className="text-gray-600">Sunday: Closed</p>
                   </div>
                 </div>
@@ -83,7 +83,7 @@ const Contact = () => {
                 <p className="mb-4">
                   For urgent legal matters outside business hours, please call our emergency line:
                 </p>
-                <div className="text-2xl font-bold text-law-gold">+233 20 987 6543</div>
+                <div className="text-2xl font-bold text-law-gold">+1 404 786 6557</div>
               </div>
             </div>
             
@@ -103,11 +103,11 @@ const Contact = () => {
         <div className="container mx-auto px-4">
           <SectionTitle 
             title="Our Location" 
-            subtitle="Conveniently located in the heart of Accra"
+            subtitle="Conveniently located in Lincolnton, North Carolina"
           />
           <div className="h-96 w-full rounded-lg overflow-hidden shadow-lg">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63420.766247808905!2d-0.23117464311827335!3d5.578025623878334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf9084b2b7a773%3A0xbed14ed8650e2dd3!2sAccra%2C%20Ghana!5e0!3m2!1sen!2sus!4v1659367394307!5m2!1sen!2sus"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3260.770533824075!2d-81.48335582410728!3d35.47600627261676!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8854e0984b14a24d%3A0xc788a3089a16c861!2s3193%20Gastonia%20Hwy%2C%20Lincolnton%2C%20NC%2028092!5e0!3m2!1sen!2sus!4v1701234567890!5m2!1sen!2sus"
               width="100%"
               height="100%"
               style={{ border: 0 }}

@@ -1,4 +1,3 @@
-
 import { Link } from "react-router-dom";
 import { Mail, Phone, MapPin, ArrowRight } from "lucide-react";
 
@@ -11,11 +10,11 @@ const Footer = () => {
           <div className="space-y-4">
             <Link to="/" className="flex items-center">
               <h2 className="text-white font-serif font-bold text-2xl">
-                <span className="text-law-light-gold">R.</span>Morrison
+                <span className="text-law-light-gold">NC</span> Law Firm
               </h2>
             </Link>
             <p className="text-gray-300 text-sm">
-              Providing expert legal services with integrity and dedication. We're committed to serving our clients with the highest standards of legal excellence.
+              Providing expert legal services with integrity and dedication across North Carolina. We're committed to serving our clients with the highest standards of legal excellence.
             </p>
             <div className="flex space-x-4 pt-2">
               <a href="#" className="text-white hover:text-law-light-gold transition-colors">
@@ -83,53 +82,21 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Practice Areas */}
-          <div>
-            <h3 className="font-serif font-bold text-lg mb-4 text-law-light-gold">Practice Areas</h3>
-            <ul className="space-y-2">
-              <li>
-                <Link to="/practice-areas" className="text-gray-300 hover:text-law-light-gold transition-colors flex items-center">
-                  <ArrowRight className="w-4 h-4 mr-2" /> Criminal Defense
-                </Link>
-              </li>
-              <li>
-                <Link to="/practice-areas" className="text-gray-300 hover:text-law-light-gold transition-colors flex items-center">
-                  <ArrowRight className="w-4 h-4 mr-2" /> Family Law
-                </Link>
-              </li>
-              <li>
-                <Link to="/practice-areas" className="text-gray-300 hover:text-law-light-gold transition-colors flex items-center">
-                  <ArrowRight className="w-4 h-4 mr-2" /> Corporate & Business Law
-                </Link>
-              </li>
-              <li>
-                <Link to="/practice-areas" className="text-gray-300 hover:text-law-light-gold transition-colors flex items-center">
-                  <ArrowRight className="w-4 h-4 mr-2" /> Real Estate & Property
-                </Link>
-              </li>
-              <li>
-                <Link to="/practice-areas" className="text-gray-300 hover:text-law-light-gold transition-colors flex items-center">
-                  <ArrowRight className="w-4 h-4 mr-2" /> Contract & Civil Litigation
-                </Link>
-              </li>
-            </ul>
-          </div>
-
           {/* Contact Info */}
           <div>
             <h3 className="font-serif font-bold text-lg mb-4 text-law-light-gold">Contact Information</h3>
             <div className="space-y-4">
               <div className="flex gap-3">
                 <MapPin className="text-law-light-gold flex-shrink-0 mt-1" />
-                <p className="text-gray-300">123 Legal Avenue, Accra, Ghana</p>
+                <p className="text-gray-300">3193 Gastonia Highway, Lincolnton, NC 28092</p>
               </div>
               <div className="flex gap-3">
                 <Phone className="text-law-light-gold flex-shrink-0" />
-                <p className="text-gray-300">+233 20 123 4567</p>
+                <p className="text-gray-300">+1 404 786 6557</p>
               </div>
               <div className="flex gap-3">
                 <Mail className="text-law-light-gold flex-shrink-0" />
-                <p className="text-gray-300">contact@reginaldmorrisonlaw.com</p>
+                <p className="text-gray-300">contact@northcarolinalaw.com</p>
               </div>
             </div>
           </div>
