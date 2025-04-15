@@ -1,4 +1,3 @@
-
 import Layout from "@/components/Layout";
 import PageHeader from "@/components/PageHeader";
 import SectionTitle from "@/components/SectionTitle";
@@ -105,27 +104,26 @@ const About = () => {
       <section className="py-20">
         <div className="container mx-auto px-4">
           <SectionTitle 
-            title="Education & Credentials" 
-            subtitle="Academic excellence and professional qualifications"
+            title="Education" 
+            subtitle="Academic Excellence and Professional Development"
           />
           <div className="max-w-4xl mx-auto">
             <div className="mb-12">
-              <h3 className="text-2xl font-serif font-bold mb-4 text-law-navy">Education</h3>
               <div className="space-y-6">
                 <div className="border-l-4 border-law-gold pl-4">
                   <p className="text-law-gray text-sm">2005 - 2008</p>
-                  <h4 className="text-xl font-medium mb-1">University of Ghana Law School</h4>
-                  <p className="text-gray-600">Bachelor of Laws (LL.B), First Class Honors</p>
+                  <h4 className="text-xl font-medium mb-1">University of California, Berkeley – School of Law</h4>
+                  <p className="text-gray-600">Bachelor of Laws (LL.B) Equivalent – First Class Honors</p>
                 </div>
                 <div className="border-l-4 border-law-gold pl-4">
                   <p className="text-law-gray text-sm">2008 - 2010</p>
-                  <h4 className="text-xl font-medium mb-1">Ghana School of Law</h4>
-                  <p className="text-gray-600">Professional Law Course, Distinction</p>
+                  <h4 className="text-xl font-medium mb-1">Columbia Law School</h4>
+                  <p className="text-gray-600">Juris Doctor (J.D.) – Graduated with Distinction</p>
                 </div>
                 <div className="border-l-4 border-law-gold pl-4">
                   <p className="text-law-gray text-sm">2012 - 2013</p>
                   <h4 className="text-xl font-medium mb-1">Harvard Law School</h4>
-                  <p className="text-gray-600">Master of Laws (LL.M), Concentration in Corporate Law</p>
+                  <p className="text-gray-600">Master of Laws (LL.M.), Concentration in Corporate Law</p>
                 </div>
               </div>
             </div>
@@ -135,27 +133,27 @@ const About = () => {
               <ul className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <li className="flex items-start">
                   <Check className="text-law-gold mr-2 mt-1 flex-shrink-0" />
-                  <p>Ghana Bar Association</p>
+                  <p>American Bar Association</p>
                 </li>
                 <li className="flex items-start">
                   <Check className="text-law-gold mr-2 mt-1 flex-shrink-0" />
-                  <p>International Bar Association</p>
+                  <p>New York State Bar Association</p>
                 </li>
                 <li className="flex items-start">
                   <Check className="text-law-gold mr-2 mt-1 flex-shrink-0" />
-                  <p>African Law Society</p>
+                  <p>National Bar Association</p>
                 </li>
                 <li className="flex items-start">
                   <Check className="text-law-gold mr-2 mt-1 flex-shrink-0" />
-                  <p>Commonwealth Lawyers Association</p>
+                  <p>American Bankruptcy Institute</p>
                 </li>
                 <li className="flex items-start">
                   <Check className="text-law-gold mr-2 mt-1 flex-shrink-0" />
-                  <p>Ghana Association of Restructuring and Insolvency Advisors</p>
+                  <p>Association of Corporate Counsel</p>
                 </li>
                 <li className="flex items-start">
                   <Check className="text-law-gold mr-2 mt-1 flex-shrink-0" />
-                  <p>Ghana Arbitration Centre</p>
+                  <p>American Arbitration Association</p>
                 </li>
               </ul>
             </div>
