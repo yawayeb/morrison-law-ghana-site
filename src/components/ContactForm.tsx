@@ -1,8 +1,10 @@
-
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
+import { supabase } from "@/integrations/supabase/client";
+import { useToast } from "@/components/ui/use-toast";
 
 const ContactForm = () => {
+  const { toast } = useToast();
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -22,13 +24,17 @@ const ContactForm = () => {
     }));
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
     
-    // Simulate form submission
-    setTimeout(() => {
-      setIsSubmitting(false);
+    try {
+      const { error } = await supabase
+        .from('contact_submissions')
+        .insert([formData]);
+
+      if (error) throw error;
+
       setSubmitted(true);
       setFormData({
         name: "",
@@ -38,11 +44,24 @@ const ContactForm = () => {
         message: "",
       });
       
+      toast({
+        title: "Success!",
+        description: "Your message has been sent. We will get back to you soon.",
+      });
+
       // Reset submitted state after 3 seconds
       setTimeout(() => {
         setSubmitted(false);
       }, 3000);
-    }, 1000);
+    } catch (error) {
+      toast({
+        variant: "destructive",
+        title: "Error",
+        description: "There was a problem sending your message. Please try again.",
+      });
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (

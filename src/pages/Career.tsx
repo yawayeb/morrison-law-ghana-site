@@ -1,19 +1,21 @@
-
 import Layout from "@/components/Layout";
 import PageHeader from "@/components/PageHeader";
 import SectionTitle from "@/components/SectionTitle";
 import { Button } from "@/components/ui/button";
 import { useState } from "react";
 import { ArrowRight, CheckCircle } from "lucide-react";
+import { supabase } from "@/integrations/supabase/client";
+import { useToast } from "@/components/ui/use-toast";
 
 const Career = () => {
+  const { toast } = useToast();
   const [formData, setFormData] = useState({
     name: "",
     email: "",
     phone: "",
     position: "",
     message: "",
-    resume: null as File | null,
+    resume_url: "",
   });
 
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -29,21 +31,48 @@ const Career = () => {
     }));
   };
 
-  const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+  const handleFileChange = async (e: React.ChangeEvent<HTMLInputElement>) => {
     if (e.target.files && e.target.files[0]) {
-      setFormData((prev) => ({
-        ...prev,
-        resume: e.target.files![0],
-      }));
+      const file = e.target.files[0];
+      const fileExt = file.name.split('.').pop();
+      const filePath = `${Math.random()}.${fileExt}`;
+
+      try {
+        const { error: uploadError, data } = await supabase.storage
+          .from('resumes')
+          .upload(filePath, file);
+
+        if (uploadError) throw uploadError;
+
+        const { data: { publicUrl } } = supabase.storage
+          .from('resumes')
+          .getPublicUrl(filePath);
+
+        setFormData(prev => ({
+          ...prev,
+          resume_url: publicUrl
+        }));
+      } catch (error) {
+        toast({
+          variant: "destructive",
+          title: "Error",
+          description: "Failed to upload resume. Please try again.",
+        });
+      }
     }
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
 
-    // Simulate form submission
-    setTimeout(() => {
+    try {
+      const { error } = await supabase
+        .from('career_applications')
+        .insert([formData]);
+
+      if (error) throw error;
+
       setIsSubmitting(false);
       setSubmitted(true);
       setFormData({
@@ -52,12 +81,23 @@ const Career = () => {
         phone: "",
         position: "",
         message: "",
-        resume: null,
+        resume_url: "",
       });
-    }, 1500);
+
+      toast({
+        title: "Application Submitted!",
+        description: "Thank you for your interest. We'll review your application and get back to you soon.",
+      });
+    } catch (error) {
+      toast({
+        variant: "destructive",
+        title: "Error",
+        description: "There was a problem submitting your application. Please try again.",
+      });
+      setIsSubmitting(false);
+    }
   };
 
-  // Current openings
   const openings = [
     {
       title: "Associate Attorney",
@@ -82,7 +122,6 @@ const Career = () => {
     },
   ];
 
-  // Benefits
   const benefits = [
     {
       title: "Professional Growth",
