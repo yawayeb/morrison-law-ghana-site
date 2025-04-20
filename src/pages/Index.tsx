@@ -40,17 +40,17 @@ const Index = () => {
   // Testimonials data
   const testimonials = [
     {
-      quote: "Mr. Morrison handled my case with utmost professionalism and genuine concern. I felt heard, respected, and protected every step of the way. Truly the best legal experience I've had.",
+      quote: "Mr. White handled my case with utmost professionalism and genuine concern. I felt heard, respected, and protected every step of the way. Truly the best legal experience I've had.",
       author: "Anita A.",
-      location: "Accra",
+      location: "MI, Armada",
       rating: 5,
     },
     {
-      quote: "Reginald is brilliant. He broke down complex legal issues in a way I could understand and got us the result we hoped for. I confidently recommend him to anyone in need of legal help.",
+      quote: "Christian is brilliant. He broke down complex legal issues in a way I could understand and got us the result we hoped for. I confidently recommend him to anyone in need of legal help.",
       author: "Kwame M.",
-      location: "Tema",
+      location: "MI, Detroit",
       rating: 5,
-    },
+    }
   ];
 
   return (
@@ -67,10 +67,10 @@ const Index = () => {
         <div className="relative z-10 container mx-auto px-4 py-24 md:py-32 flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 mb-12 md:mb-0">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold mb-6">
-              North Carolina Legal Services
+              White's Law: Finance Attorney
             </h1>
             <p className="text-xl text-gray-300 mb-8 max-w-lg">
-              A highly respected North Carolina attorney known for sharp legal insight, client-first approach, and consistent record of results across the state.
+              A highly respected attorney known for sharp legal insight, client-first approach, and consistent record of results.
             </p>
             <div className="flex flex-wrap gap-4">
               <Button
@@ -92,7 +92,7 @@ const Index = () => {
             <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-law-gold shadow-xl">
               <img
                 src="https://images.unsplash.com/photo-1599566150163-29194dcaad25?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80"
-                alt="North Carolina Attorney"
+                alt="Christian White Attorney"
                 className="w-full h-full object-cover"
               />
             </div>
