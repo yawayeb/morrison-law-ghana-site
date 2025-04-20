@@ -105,10 +105,10 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl md:text-4xl font-serif font-bold mb-6">
-              Dedicated Legal Excellence in North Carolina
+              Dedicated Legal Excellence in Armada, Michigan
             </h2>
             <p className="text-xl text-gray-600 mb-8">
-              With a 5-star reputation for excellence, our law firm provides dedicated legal services across North Carolina. Whether you're facing a legal challenge or seeking expert guidance, you're in the right place.
+              With a 5-star reputation for excellence, our law firm provides dedicated legal services from our office in McPhall Rd, Armada, MI. Whether you're facing a legal challenge or seeking expert guidance, you're in the right place.
             </p>
             <div className="flex flex-wrap justify-center gap-8 mt-10">
               <div className="text-center">
