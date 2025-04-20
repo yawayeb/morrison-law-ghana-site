@@ -12,7 +12,8 @@ const Contact = () => {
         subtitle="We're Ready to Hear from You"
         backgroundImage="https://images.unsplash.com/photo-1516321497487-e288fb19713f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
       />
-
+high-quality advice to
+the energy industry
       <section className="py-20">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
@@ -30,7 +31,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="text-xl font-medium mb-1">Office Address</h3>
-                    <p className="text-gray-600">3193 Gastonia Highway, Lincolnton, NC 28092</p>
+                    <p className="text-gray-600">22391 McPhall Rd, Armada, MI 48005</p>
                   </div>
                 </div>
                 
@@ -40,7 +41,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="text-xl font-medium mb-1">Phone Number</h3>
-                    <p className="text-gray-600">+1 404 786 6557</p>
+                    <p className="text-gray-600">+1 (908)-429-9968</p>
                   </div>
                 </div>
                 
@@ -50,7 +51,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="text-xl font-medium mb-1">Email Address</h3>
-                    <p className="text-gray-600">contact@northcarolinalaw.com</p>
+                    <p className="text-gray-600">Christiananthony.w@gmail.com</p>
                   </div>
                 </div>
                 
@@ -60,7 +61,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="text-xl font-medium mb-1">WhatsApp</h3>
-                    <p className="text-gray-600">+1 404 786 6557</p>
+                    <p className="text-gray-600">+1 (908)-429-9968</p>
                   </div>
                 </div>
                 
@@ -82,7 +83,7 @@ const Contact = () => {
                 <p className="mb-4">
                   For urgent legal matters outside business hours, please call our emergency line:
                 </p>
-                <div className="text-2xl font-bold text-law-gold">+1 404 786 6557</div>
+                <div className="text-2xl font-bold text-law-gold">+1 (908)-429-9968</div>
               </div>
             </div>
             
