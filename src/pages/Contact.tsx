@@ -1,4 +1,3 @@
-
 import Layout from "@/components/Layout";
 import PageHeader from "@/components/PageHeader";
 import SectionTitle from "@/components/SectionTitle";
@@ -103,11 +102,11 @@ const Contact = () => {
         <div className="container mx-auto px-4">
           <SectionTitle 
             title="Our Location" 
-            subtitle="Conveniently located in Lincolnton, North Carolina"
+            subtitle="Conveniently located in Armada, Michigan"
           />
           <div className="h-96 w-full rounded-lg overflow-hidden shadow-lg">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3260.770533824075!2d-81.48335582410728!3d35.47600627261676!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8854e0984b14a24d%3A0xc788a3089a16c861!2s3193%20Gastonia%20Hwy%2C%20Lincolnton%2C%20NC%2028092!5e0!3m2!1sen!2sus!4v1701234567890!5m2!1sen!2sus"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2932.013766565464!2d-82.88016562346056!3d42.84079597115575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8824e681445c5bed%3A0x9c23d760bfae0a73!2s22391%20McPhall%20Rd%2C%20Armada%2C%20MI%2048005!5e0!3m2!1sen!2sus!4v1701234567890!5m2!1sen!2sus"
               width="100%"
               height="100%"
               style={{ border: 0 }}
