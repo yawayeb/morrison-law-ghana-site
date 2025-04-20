@@ -9,39 +9,39 @@ import { Star } from "lucide-react";
 const Testimonials = () => {
   const testimonials = [
     {
-      quote: "Mr. Morrison handled my case with utmost professionalism and genuine concern. I felt heard, respected, and protected every step of the way. Truly the best legal experience I've had.",
+      quote: "Mr. White handled my case with utmost professionalism and genuine concern. I felt heard, respected, and protected every step of the way. Truly the best legal experience I've had.",
       author: "Anita A.",
-      location: "Accra",
+      location: "WI, Kilbourn",
       rating: 5,
     },
     {
-      quote: "Reginald is brilliant. He broke down complex legal issues in a way I could understand and got us the result we hoped for. I confidently recommend him to anyone in need of legal help.",
-      author: "Kwame M.",
-      location: "Tema",
+      quote: "Christian is brilliant. He broke down complex legal issues in a way I could understand and got us the result we hoped for. I confidently recommend him to anyone in need of legal help.",
+      author: "Kevin M.",
+      location: "MI, Detroit",
       rating: 5,
     },
     {
-      quote: "The team at Morrison Law helped me navigate a difficult property dispute with remarkable skill. Their knowledge of Ghana's property laws proved invaluable.",
+      quote: "The team at White's Law helped me navigate a difficult property dispute with remarkable skill. Their knowledge of property laws proved invaluable.",
       author: "Samuel O.",
-      location: "Kumasi",
+      location: "NY, Manhattan",
       rating: 5,
     },
     {
-      quote: "I was facing serious charges and felt lost until I found Mr. Morrison. His defense strategy was impeccable, and his confidence gave me hope during a very dark time.",
+      quote: "I was facing serious charges and felt lost until I found Mr. White. His defense strategy was impeccable, and his confidence gave me hope during a very dark time.",
       author: "Janet D.",
-      location: "Cape Coast",
+      location: "CA, Los Angeles",
       rating: 5,
     },
     {
-      quote: "After struggling with another law firm for months, switching to Morrison Law was like night and day. They resolved my business contract issue within weeks.",
+      quote: "After struggling with another law firm for months, switching to White's Law was like night and day. They resolved my business contract issue within weeks.",
       author: "Michael T.",
-      location: "Takoradi",
+      location: "IL, Chicago",
       rating: 5,
     },
     {
-      quote: "As a first-time homebuyer, the legal aspects of purchasing property were overwhelming. Reginald's team made the process smooth and stress-free.",
-      author: "Gifty P.",
-      location: "Accra",
+      quote: "As a first-time business owner, the legal aspects of corporate law were overwhelming. Christian's team made the process smooth and stress-free.",
+      author: "Grace P.",
+      location: "MI, Ann Arbor",
       rating: 5,
     },
   ];
