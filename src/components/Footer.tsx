@@ -10,11 +10,11 @@ const Footer = () => {
           <div className="space-y-4">
             <Link to="/" className="flex items-center">
               <h2 className="text-white font-serif font-bold text-2xl">
-                <span className="text-law-light-gold">NC</span> Law Firm
+                <span className="text-law-light-gold">CW</span> Law Firm
               </h2>
             </Link>
             <p className="text-gray-300 text-sm">
-              Providing expert legal services with integrity and dedication across North Carolina. We're committed to serving our clients with the highest standards of legal excellence.
+              Providing expert finance legal services with integrity and dedication. We're committed to serving our clients with the highest standards of legal excellence.
             </p>
             <div className="flex space-x-4 pt-2">
               <a href="#" className="text-white hover:text-law-light-gold transition-colors">
@@ -88,15 +88,15 @@ const Footer = () => {
             <div className="space-y-4">
               <div className="flex gap-3">
                 <MapPin className="text-law-light-gold flex-shrink-0 mt-1" />
-                <p className="text-gray-300">3193 Gastonia Highway, Lincolnton, NC 28092</p>
+                <p className="text-gray-300">22391 McPhall Rd, Armada, MI 48005</p>
               </div>
               <div className="flex gap-3">
                 <Phone className="text-law-light-gold flex-shrink-0" />
-                <p className="text-gray-300">+1 404 786 6557</p>
+                <p className="text-gray-300">+1 (908) 429-9968</p>
               </div>
               <div className="flex gap-3">
                 <Mail className="text-law-light-gold flex-shrink-0" />
-                <p className="text-gray-300">contact@northcarolinalaw.com</p>
+                <p className="text-gray-300">Christiananthony.w@gmail.com</p>
               </div>
             </div>
           </div>
@@ -104,7 +104,7 @@ const Footer = () => {
 
         <div className="border-t border-gray-700 mt-12 pt-8 text-center">
           <p className="text-gray-400 text-sm">
-            &copy; {new Date().getFullYear()} The Law Office of Reginald Morrison. All rights reserved.
+            &copy; {new Date().getFullYear()} White's Law. All rights reserved.
           </p>
         </div>
       </div>

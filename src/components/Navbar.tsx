@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
@@ -16,10 +15,10 @@ const Navbar = () => {
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
         <Link to="/" className="flex items-center gap-2">
           <h1 className="text-law-navy font-serif font-bold text-2xl">
-            <span className="text-law-gold">R.</span>Morrison
+            <span className="text-law-gold">W.</span>White
           </h1>
           <span className="hidden md:inline-block text-xs uppercase tracking-wider border-l border-law-gray pl-2 text-law-gray">
-            Attorney at Law
+            Seasoned Finance Attorney
           </span>
         </Link>
 
