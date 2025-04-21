@@ -1,4 +1,3 @@
-
 import Layout from "@/components/Layout";
 import PageHeader from "@/components/PageHeader";
 import SectionTitle from "@/components/SectionTitle";
@@ -9,7 +8,7 @@ const Blog = () => {
   const blogPosts = [
     {
       title: "5 Things to Know Before Signing a Contract",
-      excerpt: "Contracts are the foundation of business relationships. Here are five essential things to verify before putting your signature on any agreement.",
+      excerpt: "Contracts are the foundation of business relationships. Here are five essential things to verify before putting your signature on any agreement in the USA or UK.",
       image: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
       date: "June 15, 2023",
       readTime: "6 min read",
@@ -17,15 +16,15 @@ const Blog = () => {
     },
     {
       title: "Your Rights During Police Arrest",
-      excerpt: "Understanding your legal rights during an arrest is crucial. We outline what the law permits and what you should know if you're detained.",
+      excerpt: "Understanding your legal rights during an arrest is crucial. We outline what the law permits and what you should know if you're detained in the USA or UK.",
       image: "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
       date: "May 28, 2023",
       readTime: "8 min read",
       slug: "your-rights-during-police-arrest",
     },
     {
-      title: "Navigating Family Property Disputes in Ghana",
-      excerpt: "Family property disputes are common in Ghana. Learn about the legal framework and steps to resolve these sensitive matters.",
+      title: "Navigating Family Property Disputes in the USA and UK",
+      excerpt: "Family property disputes are common in both the USA and the UK. Learn about the legal frameworks and steps to resolve these sensitive matters.",
       image: "https://images.unsplash.com/photo-1611937591499-dd3adce56689?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80",
       date: "April 10, 2023",
       readTime: "5 min read",
@@ -33,23 +32,23 @@ const Blog = () => {
     },
     {
       title: "The Importance of a Proper Will in Estate Planning",
-      excerpt: "Without a valid will, your assets may not be distributed according to your wishes. Here's why proper estate planning matters.",
+      excerpt: "Without a valid will, your assets may not be distributed according to your wishes. Here's why proper estate planning in the USA or UK matters.",
       image: "https://images.unsplash.com/photo-1571867424488-4565932edb41?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80",
       date: "March 5, 2023",
       readTime: "7 min read",
       slug: "importance-of-proper-will-estate-planning",
     },
     {
-      title: "Starting a Business in Ghana: Legal Requirements",
-      excerpt: "Planning to start a business in Ghana? This guide covers the essential legal requirements and procedures you need to follow.",
+      title: "Starting a Business: Legal Requirements in the USA & UK",
+      excerpt: "Planning to start a business in the USA or UK? This guide covers the essential legal requirements and procedures you need to follow.",
       image: "https://images.unsplash.com/photo-1444653614773-995cb1ef9efa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1176&q=80",
       date: "February 18, 2023",
       readTime: "10 min read",
-      slug: "starting-business-ghana-legal-requirements",
+      slug: "starting-business-usa-uk-legal-requirements",
     },
     {
-      title: "Understanding Child Custody Laws in Ghana",
-      excerpt: "Divorce affects children deeply. Learn about Ghana's approach to child custody and what factors courts consider when making decisions.",
+      title: "Understanding Child Custody Laws in the USA & UK",
+      excerpt: "Divorce affects children deeply. Learn about the USA's and UK's approach to child custody, and what factors courts consider when making decisions.",
       image: "https://images.unsplash.com/photo-1491013516836-7db643ee125a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1125&q=80",
       date: "January 7, 2023",
       readTime: "6 min read",
@@ -73,11 +72,9 @@ const Blog = () => {
         subtitle="Insights & Legal Tips from Reginald Morrison"
         backgroundImage="https://images.unsplash.com/photo-1457369804613-52c61a468e7d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
       />
-
       <section className="py-20">
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row gap-8">
-            {/* Main Content */}
             <div className="md:w-3/4">
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {blogPosts.map((post, index) => (
@@ -93,7 +90,6 @@ const Blog = () => {
                 ))}
               </div>
               
-              {/* Pagination */}
               <div className="mt-12 flex justify-center">
                 <nav className="inline-flex rounded-md shadow">
                   <a
@@ -124,9 +120,7 @@ const Blog = () => {
               </div>
             </div>
             
-            {/* Sidebar */}
             <div className="md:w-1/4">
-              {/* Search */}
               <div className="bg-white p-6 rounded-lg shadow-md mb-8">
                 <h3 className="text-lg font-bold mb-4">Search</h3>
                 <div className="relative">
@@ -143,7 +137,6 @@ const Blog = () => {
                 </div>
               </div>
               
-              {/* Categories */}
               <div className="bg-white p-6 rounded-lg shadow-md mb-8">
                 <h3 className="text-lg font-bold mb-4">Categories</h3>
                 <ul className="space-y-2">
@@ -164,7 +157,6 @@ const Blog = () => {
                 </ul>
               </div>
               
-              {/* Recent Posts */}
               <div className="bg-white p-6 rounded-lg shadow-md mb-8">
                 <h3 className="text-lg font-bold mb-4">Recent Posts</h3>
                 <div className="space-y-4">
@@ -188,7 +180,6 @@ const Blog = () => {
                 </div>
               </div>
               
-              {/* Contact CTA */}
               <div className="bg-law-navy p-6 rounded-lg text-white">
                 <h3 className="text-lg font-bold mb-3">Need Legal Help?</h3>
                 <p className="text-gray-300 mb-4">
@@ -205,7 +196,6 @@ const Blog = () => {
           </div>
         </div>
       </section>
-
       <CallToAction 
         title="Stay Informed" 
         description="Subscribe to our newsletter for the latest legal insights and updates."
